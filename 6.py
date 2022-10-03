@@ -11,7 +11,7 @@ def proportion (mylist, item):  # defining a function that counts proprotion of 
 
 
 
-def gives_dictionary(*list):         # function that will retur dictionary with key value of number and its proportion
+def gives_dictionary(*list):         # function that will return dictionary with key value pairs  of number and its proportion
     for x in list:
      print(f'{x} : {proportion(list,x)}')
 
